@@ -7,7 +7,11 @@
 body{
     width: 100%;
     height: auto;
-    box-sizing: border-box;
+    background-image: url(imagen/imagen.escritorio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    background-position: center center;
 }
 
 .header{
@@ -39,6 +43,10 @@ z-index: 100;
     top: 0;
     left: -100%;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(12, 10, 44, 0.2);
     height: 100%;
     background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), 
     transparent);
@@ -100,15 +108,11 @@ z-index: 100;
     background-position: center center;
 }
 
-.looking-img>img {
-    position: relative;
-    width: 20rem;
-    
-
+.looking-img > button{
+    margin: 10rem 0;
 }
 
 .looking-img>button {
-    margin: 3rem 0;
     padding: 0.70em 1.1em;
     color: aliceblue;
     background-color: transparent;
@@ -196,7 +200,7 @@ z-index: 100;
     width: 10rem;
     color: white;
     border-radius: 10px 10px 0 0;
-    box-shadow: 1px 5px 50px 0 #007aff;
+   
 
 }
 .coffee > h2{
@@ -222,8 +226,12 @@ z-index: 100;
     width: 100%;
     height: auto;
     flex-wrap: wrap;
-    background-color: #F0EEE6;
-    background-image: url(imagen/a9_download_banner_742dc1520d.webp);
+    background-color: #F0EEE6; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    background-position: center center;
+    
 }
 .portafolio-div{
     display: flex;
@@ -246,7 +254,8 @@ z-index: 100;
     padding: 8px;
     font-size: 20px;
     border-radius: 10%;
-    color: aliceblue;
+    color: black;
+    
     opacity: 0.8;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -360,7 +369,6 @@ z-index: 100;
 }
 .twitter > span{
     align-items: center;
-    
     font-size: 18px;
     color: aliceblue;
     display: flex;
@@ -382,7 +390,7 @@ z-index: 100;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imagen/imagen\ de\ fondo.jpg);
+    background-image: url(imagen/Mano\ tocando\ el\ mundo\ virtual\ con\ red\ de\ conexión_\ _\ Foto\ Premium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: crisp-edges;
@@ -444,7 +452,7 @@ z-index: 100;
 .contact{
     width: 100%;
     height: auto;
-    background-color: rgb(85, 85, 85);
+    background-color: #222222;
 }
 input[type=text]{
     
