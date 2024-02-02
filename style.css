@@ -187,7 +187,6 @@ body >.header-cv {
     background-size: cover;
     image-rendering: crisp-edges;
     background-position: center center;
-    background-image: url(imagen/);
     
 }
 .portafolio-div{
@@ -310,7 +309,6 @@ body >.header-cv {
 }
 .twitter > span{
     align-items: center;
-    
     font-size: 18px;
     color: aliceblue;
     display: flex;
